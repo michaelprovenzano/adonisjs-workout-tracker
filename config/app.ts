@@ -31,7 +31,7 @@ export const http = defineConfig({
    */
   cookie: {
     domain: '',
-    path: '/',
+    path: '/adonisjs-workout-tracker/',
     maxAge: '2h',
     httpOnly: true,
     secure: app.inProduction,

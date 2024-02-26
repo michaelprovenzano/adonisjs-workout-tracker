@@ -23,7 +23,7 @@ const sessionConfig = defineConfig({
    * cookie store
    */
   cookie: {
-    path: '/',
+    path: '/adonisjs-workout-tracker/',
     httpOnly: true,
     secure: app.inProduction,
     sameSite: 'lax',
